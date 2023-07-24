@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    body{
+        background-image :url('img2.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+    }
+    nav{
+        background: #000000;
+        width: 105%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        width: 123%;
+        padding: 0 100px;
+        position: 100%;
+    }
+    .heading .head{
+        position: relative;
+        margin-top: 3%;
+        left: 43%;
+        font-family: 'RacingSansOne',sans-serif;
+        font-size:30px;
+        font-weight: 600; 
+        color:rgb(0, 0, 0);
+    }
+    .table .inner{
+        position: relative;
+        margin-top: 3%;
+        left: 10%;
+    }
+   .heading .head span{
+        color:#017fb5;
+    }
+    nav .logo{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+    nav .nav-items{
+        display: flex;
+        list-style: none;
+        padding: 0 0 0 40px;
+    }
+    nav .nav-items li{
+        padding: 0 15px;
+    }
+    nav .nav-items li a{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    nav .nav-items li a:hover{
+        color: #fffb06;
+    }
+        
+    * {
+        font-family: sans-serif; /* Change your font family */
+        }
+
+    .inner {
+
+    border-collapse: collapse;
+
+    margin: 25px 0;
+
+    font-size: 0.9em;
+
+    min-width: 400px;
+
+    border-radius: 5px 5px 0 0;
+
+    overflow: hidden;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    }
+
+
+    .inner thead tr {
+
+    background-color: #009879;
+
+    color: #ffffff;
+
+    text-align: left;
+
+    font-weight: bold;
+
+    }
+
+
+    .inner th,
+
+    .inner td {
+
+    padding: 12px 15px;
+
+    }
+
+
+    .inner tbody tr:last-of-type {
+
+    border-bottom: 2px solid #009879;
+
+    }
+
+

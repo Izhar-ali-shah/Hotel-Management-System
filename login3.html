@@ -1,0 +1,49 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style3.css">
+</head>
+<body>
+	
+    <div class="pic">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" > Login for admin</button>
+               
+
+            </div>
+           
+        <form id="login" class="input-group" action="login_W.php" method="get">
+            <input type="text" class="input-field" placeholder="User Id" name ="uname" required>
+            <input type="password" class="input-field" placeholder="Enter password" name = "psw" required>
+            <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        
+           
+        </div>
+    </div>
+		
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+    
+        function register()
+        {
+            x.style.left = "-500px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+        function login()
+        {
+            x.style.left = "140px"
+            y.style.left = "950px"
+            z.style.left = "0px"
+        }
+    
+    
+    
+    </script>
+
+</body>
+</html>

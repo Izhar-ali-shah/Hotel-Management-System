@@ -1,0 +1,87 @@
+<html>
+<head>
+	<link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+	
+    <div class="pic">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+
+            </div>
+           
+        <form id="login" class="input-group" action="login_V.php" method="get">
+            <input type="text" class="input-field" placeholder="User Id" name ="uname" required>
+            <input type="password" class="input-field" placeholder="Enter password" name = "psw" required>
+            <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        <form id="register" class="input-group2" action="task1.php" method = "get">
+            
+            
+            <input type="text" class="input-field1" placeholder="User Id" name ="USER" required>
+            <input type="password" class="input-field1" placeholder="Enter password" name = "PASS" required>
+                
+
+            <input type="text" class="input-field1" placeholder="Enter yout Student ID" name="stdid" id="student_id" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter First name" name="first" id="Fist name" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter last name" name="last" id="Last name" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter phone no" name="Pno" id="phone" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter where you live" name="address" id="add" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter gender" name="sex" id="gender" required>
+        
+            <div class="second">
+
+        
+            <input type="text" class="input-field2" placeholder="Enter your year" name="year" id="year" required>
+
+            <input type="date" class="input-field2" placeholder="Enter your dob" name="dob" id="dob" required>
+        
+            <input type="text" class="input-field2" placeholder="Enter your email" name="s_email" id="smail" required>
+        
+            <input type="text" class="input-field2" placeholder="Enter your room num" name="room_id" id="room_id" required>
+        
+            <input type="text" class="input-field2" placeholder="Enter your fathers name" name="fname" id="fname" >
+        
+            <input type="text" class="input-field2" placeholder="Enter your fathers job title" name="fjob" id="fjob" >
+        
+            <input type="text" class="input-field2" placeholder="Enter your mothers name" name="mname" id="mname" >
+        
+            <input type="text" class="input-field2" placeholder="Enter your mothers job title" name="mjob" id="mjob">
+            </div>
+            <button type="submit" class="submit-btn1">Register</button>
+        </form>
+        </div>
+    </div>
+		
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+    
+        function register()
+        {
+            x.style.left = "-500px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+        function login()
+        {
+            x.style.left = "140px"
+            y.style.left = "950px"
+            z.style.left = "0px"
+        }
+    
+    
+    
+    </script>
+
+</body>
+</html>

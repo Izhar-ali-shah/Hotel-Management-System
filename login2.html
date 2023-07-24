@@ -1,0 +1,81 @@
+<html>
+<head>
+	<link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+	
+    <div class="pic">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+
+            </div>
+           
+        <form id="login" class="input-group" action="eloginv.php" method="get">
+            <input type="text" class="input-field" placeholder="EMP_User_Name" name ="uname" required>
+            <input type="password" class="input-field" placeholder="Enter password" name = "psw" required>
+            <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        <form id="register" class="input-group2" action="task2.php" method = "get">
+            
+            
+            <input type="text" class="input-field1" placeholder="Emp_User Id" name ="USER" required>
+            <input type="text" class="input-field1" placeholder="Enter password" name = "PASS" required>
+                
+
+            <input type="text" class="input-field1" placeholder="Enter your Emp_id" name="emp_id" id="EMP_id" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter Emp_First name" name="emp_first_name" id="Fist name" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter Emp_last name" name="emp_last_name" id="Last name" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter Emp_phone no" name="cell_no" id="cell_no" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter where you live" name="address_of_e" id="add" required>
+        
+            <input type="text" class="input-field1" placeholder="Enter email" name="s_email" id="smail" >
+        
+            <div class="second">
+
+
+            <input placeholder="DOB" class="input-field2" type="text" onfocus="(this.type='date')" id="dob" >
+        
+            <input type="text" class="input-field2" placeholder="Enter your job_title" name="job_title" id="job_title" >
+
+           
+            <input placeholder="Enter your join_date" class="input-field2" type="text" onfocus="(this.type='date')" name="doj"id="date" required>
+           
+        
+    
+            </div>
+            <button type="submit" class="submit-btn1">Register</button>
+        </form>
+        </div>
+    </div>
+		
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+    
+        function register()
+        {
+            x.style.left = "-500px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+        function login()
+        {
+            x.style.left = "140px"
+            y.style.left = "950px"
+            z.style.left = "0px"
+        }
+    
+    
+    
+    </script>
+
+</body>
+</html>

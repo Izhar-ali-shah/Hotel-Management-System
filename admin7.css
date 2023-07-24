@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    body{
+        background-image :url('img2.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        
+    }
+    .container
+    {
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: mandatory;
+    }
+    nav{
+        background: #000000;
+        width: 115%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+        padding: 0 150px;
+        position: 100%;
+    }
+    .heading .head{
+        position: relative;
+        margin-top: 3%;
+        left: 43%;
+        font-family: 'RacingSansOne',sans-serif;
+        font-size:30px;
+        font-weight: 600; 
+        color:rgb(0, 0, 0);
+    }
+    .table .inner{
+        position: absolute;
+        margin-top: 2%;
+        left: 15%;
+        right: 1mm;
+        margin-bottom: 10%;
+    }
+   .heading .head span{
+        color:#017fb5;
+    }
+    nav .logo{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+    nav .nav-items{
+        display: flex;
+        list-style: none;
+        padding: 0 0 0 40px;
+    }
+    nav .nav-items li{
+        padding: 0 15px;
+    }
+    nav .nav-items li a{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    nav .nav-items li a:hover{
+        color: #b006ff;
+    }
+        
+    * {
+        font-family: sans-serif; /* Change your font family */
+        }
+
+    .inner {
+
+    border-collapse: collapse;
+
+    margin: 20px 0;
+
+    font-size: 0.9em;
+
+    min-width: 400px;
+
+    border-radius: 5px 5px 0 0;
+
+    overflow: scroll;
+   
+    box-shadow: 0 0 20px rgba(3, 100, 76, 0.856);
+
+    }
+
+
+    .inner thead tr {
+
+    background-color: #009879;
+
+    color: #ffffff;
+
+    text-align: left;
+
+    font-weight: bold;
+
+    }
+
+
+    .inner th,
+
+    .inner td {
+
+    padding: 12px 15px;
+
+    }
+    th,td{
+        padding: 1rem 20px;
+        border:1px solid #bbb;
+    }
+
+
+    .inner tbody tr:last-of-type {
+
+    border-bottom: 2px solid #009879;
+
+    }
+
+    
+
+
